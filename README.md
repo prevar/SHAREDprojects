@@ -1,2 +1,2 @@
 # eyes project
-<a href="https://github.com/prevar/SHAREDprojects/tree/main/GitPortfolio/eyemovement">Eyes Project</a>
+<a href="https://prevar.github.io/SHAREDprojects/tree/main/GitPortfolio/eyemovement">Eyes Project</a>
