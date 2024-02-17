@@ -5,4 +5,4 @@
 
 <a href="https://prevar.github.io/SHAREDprojects/GitPortfolio/pacman/pacman.html">PacMan</a>
 
-<a href="https://prevar.github.io/SHAREDprojects/GitPortfolio/website">Portfolio</a>
+<a href="https://prevar.github.io/SHAREDprojects/GitPortfolio/portfolio/website">Portfolio</a>
