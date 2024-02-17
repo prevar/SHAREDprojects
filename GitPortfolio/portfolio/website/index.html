@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css"/>
-</head>
-<body>
-    <div class="container-fluid">
-        <nav class="nav flex-column">
-            <a class="nav-link active" href="#">Active</a>
-            <a class="nav-link red" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
-        </nav>
-        <div class="row mx-lg-n5">
-            <div class="col py-3 px-lg-5 border bg-light">Custom column padding</div>
-            <div class="col py-3 px-lg-5 border bg-light">Custom column padding</div>
-          </div>
-        </div>
-        <div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
-    </div>
-    <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
-        <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
-        <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
-        <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
-        <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
-        <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
-      </div>
-      <div class="row">
-        <div class="col-4 card h-100">
-            <img src="./images/pacMan.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./css/styles.css"/>
+    </head>
+    <body class="p-2 margin-left mainBody">
+        <div class="container border-1 border-primary bg-white rounded">
+            <div w3-include-html="nav.html"></div>
+            <div class="row p-3 m-4 border-0 border-primary">
+                <div class="col-sm-2 border-0 border-secondary">
+                </div>
+                <div class="col-sm-4 p-5 bg-purple">
+                    <img src=".\images\preeti_profile.jpg" width="100%" height="100%" />
+                </div>
+                <div class="col-sm-4 p-5 border border-3 border-primary bg-purple" >
+                    <div class="bg-white p-3 border border-primary">
+                        <p class="">
+                            Experienced web software developer/analyst, adept in various technologies. Balancing family responsibilities, I remained engaged in tech through part-time and volunteer roles. Now ready to fully commit expertise, time, and passion to support companies in reaching their objectives.</p>
+                        </div>
+                    </div>
+                <div class="col-sm-2 border-0 border-secondary">
+                </div>            
             </div>
-          </div>
+            <div class="bg-yellow pb-4 m-4 border border-primary">
+                <h2 class="text-center m-3 p-3"> About me </h2>
+                <div class="row ">
+                    <div class="col-sm-2 border-0 border-secondary">
+                    </div>
+                    <div class="col-sm-8 p-5 bg-purple">
+                        <div class="border center">
+                            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/8l2G6nIVZGQ?si=zpZ5iohRDAi-XdFZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 border-0 border-secondary">
+                    </div> 
+                </div>
+            </div>
+                <div w3-include-html="contact.html"></div>
+            
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+        <script src="./js/website.js"></script>
+        <script>
+            includeHTML()
+
+            window.addEventListener('load', function () {
+                let profileTabClass = document.getElementById('profileTab').getAttribute('class');
+                profileTabClass += ' active';
+                document.getElementById('profileTab').setAttribute('class', profileTabClass);
+            })
+
+        </script>
+    </body>
 </html>
