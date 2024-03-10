@@ -20,18 +20,27 @@ function App() {
             setTodos(newTodos);
         } 
 
-    const handleRemove = index=> {
+   /* const handleRemove = index=> {
+        console.log('****'+index);
+        const i = Number(index);
+        console.log('****'+i);
         let temp = [...todos]
+        temp.splice(i,1);
+        setTodos(temp);
+    }*/
+
+    const removeTodo = index => {
+        let temp = [...todos];
         temp.splice(index,1);
         setTodos(temp);
     }
 
-    return (
-        <div className="app">
-            <div className="listWrapper">
-                {todos.map( (todo, i)=> <Todo index={i} todo={todo} remove={handleRemove} /> ) }
+    return (<div className="app">
                 <TodoForm addTodo={addTodo}/>
-            </div>
+                <div className="listWrapper">
+                {todos.map( (todo, i)=> 
+                <Todo index={i} key={i} todo={todo} remove={removeTodo}/>) }
+                </div>
         </div>
     );
 }
