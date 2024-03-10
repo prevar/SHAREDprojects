@@ -1,4 +1,4 @@
-<img src='./screenshot.png' width="200px" height="200px" />
+<img src='./Screenshot.png' width="200px" height="200px" />
 
 **Title:** ToDo list
 
