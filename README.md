@@ -12,4 +12,4 @@
 <a href="https://prevar.github.io/SHAREDprojects/GitPortfolio/atm2/standalone.html">ATM</a>
 
 
-<a href="https://prevar.github.io/SHAREDprojects/GitPortfolio/findARecipe/standalone.html">Find a Recipe</a>
+<a href="https://prevar.github.io/SHAREDprojects/GitPortfolio/fetchRecipe/standalone.html">Find a Recipe</a>
