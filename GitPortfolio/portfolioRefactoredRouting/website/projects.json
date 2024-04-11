@@ -1,0 +1,22 @@
+{
+    "projects" : [
+        {
+            "title":"Eye Movement",
+            "imgSrc": ".\\images\\eyes.png",
+            "desc":"In this project, there are a pair of eyes shown on the browser. As soon as the mouse enters the screen the eyes start following it. The eyes follow any movement of the mouse as long as it is within the scope of the browser",
+            "gitLnk":"https://github.com/prevar/SHAREDprojects/tree/main/GitPortfolio/eyemovement"
+        },
+        {
+            "title":"Bus Tracker",
+            "imgSrc":".\\images\\bustracker.png",
+            "desc":"This excercise shows the Map of boston using the MapBox API and shows a button to track stops between MIT and Harvard. On pressing the buttons, the origin and destination are shown as red markers and in between stops are seen as green markers",
+            "gitLnk":"https://github.com/prevar/SHAREDprojects/tree/main/GitPortfolio/bustracker"
+        },
+        {
+            "title":"Pac Man",
+            "imgSrc":".\\images\\pacman.png",
+            "desc":"In this project a PacMan object moves from one end of a horizontal plane to the other end. Once it touches the wall on either side, it changes direction and goes to the other side. There are 4 pac man images used in the project 2 each for open/close mouth facing either direction.",
+            "gitLnk":"https://github.com/prevar/SHAREDprojects/tree/main/GitPortfolio/pacman"
+        }
+    ]
+}

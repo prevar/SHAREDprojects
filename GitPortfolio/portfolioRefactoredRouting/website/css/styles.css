@@ -1,0 +1,17 @@
+.bg-purple {
+    background-color:#3C1742;
+}
+
+.bg-yellow {
+    background-color:#f9c80eff;
+}
+
+.nav-link:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.mainBody {
+    background-color:hsl(32, 94%, 50%); 
+    align:center;
+}
