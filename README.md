@@ -15,6 +15,3 @@
 
 <a href="https://prevar.github.io/SHAREDprojects/GitPortfolio/portfolioRefactoredRouting/website/index.html">Portfolio </a>
 
-<a href="https://prevar.github.io/SHAREDprojects/GitPortfolio/herokuApp/index.html">Add user - Deploy to Heroku </a>
-
-
