@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+    <link rel="stylesheet" href="styles.css"/> 
+</head>
+<body>
+    <H1>  MY TO DO LIST </H1>
+    <!-- We will put our React component inside this div. -->
+    <div id="root"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script defer type="text/babel" src="./todo.js"></script>
+    <script defer type="text/babel" src="./form.js"></script>
+    <script defer type="text/babel" src="./index.js"></script>
+
+
+</body>
+
+</html>

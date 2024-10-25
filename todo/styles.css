@@ -1,0 +1,49 @@
+.todoItem {
+    color: white;
+    border: solid 2px yellow;
+    background-color: black;
+    padding: 5px;
+    margin:5px;
+}
+
+.listWrapper {
+    width: 80%;
+    margin:auto;
+    padding-top:10px;
+}
+
+.app {
+    background-color:#64b2ea;
+    width:52%;
+    height:100%;
+    padding:15px;
+    margin:auto;
+    border: 2px solid black;
+}
+
+.inputClass {
+    border:3px solid black;
+    margin:5px;
+    padding:5px;
+    width:80%;
+}
+
+h1 {
+    text-align:center;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.btnRem {
+    float:right;
+    background-color:yellow;
+}
+
+.btnAdd {
+    margin:5px;
+    padding: 5px;
+    float:right;
+    background-color:yellow;
+}
