@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Preeti Varshney</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./css/styles.css"/>
+        
+        <!-- Don't use this in production: -->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body class="p-2 margin-left mainBody">
+        <div class="container border-1 border-primary bg-white rounded">
+            <!--Include the 3 external html pages nav, content and contact -->
+            <div id="nav"></div>
+            <div id="content"></div>
+            <div id="contact"></div>
+        </div>
+
+        <!--load react-->
+        <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+        <script src="./js/website.js" defer type="text/babel"></script>
+        <script src="./js/project.js" defer type="text/babel"></script>
+        <script src="./js/index.js" defer type="text/babel"></script>
+    </body>
+</html>
