@@ -3,7 +3,7 @@
         {
             "title":"Eye Movement",
             "imgSrc": ".\\images\\eyes.png",
-            "desc":"In this project, there are a pair of eyes shown on the browser. As soon as the mouse enters the screen the eyes start following it. The eyes follow any movement of the mouse as long as it is within the scope of the browser",
+            "desc":"In this project, there are a pair of eyes shown on the browser. As soon as the mouse enters the screen the eyes start following the mouse. The eyes follow any movement of the mouse as long as it is within the scope of the browser",
             "gitLnk":"https://github.com/prevar/SHAREDprojects/tree/main/GitPortfolio/eyemovement"
         },
         {
